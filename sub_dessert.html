@@ -1,0 +1,368 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1, minimum-scale=1,user-scalable=none">
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/swiper/swiper-bundle.min.css"
+    />
+    <link rel="stylesheet" href="./css/all.css" type="text/css">
+    <link rel="stylesheet" href="./css/common.css" type="text/css">
+    <link rel="stylesheet" href="./css/dole_dessert.css" type="text/css">
+    
+    <title>Dole(돌) 코리아</title>
+</head> 
+<body>
+    <div id="wrap">
+        <header id="header">
+            <div class="header_in">
+                <div class="menu_area">
+                    <a href="#">
+                        <img src="./images/common/menu.svg" alt="menu">
+                    </a>
+                </div>
+                <h1 class="logo">
+                    <a href="index.html">
+                        <img src="./images/common/logo2.svg" alt="dole-logo">
+                    </a>
+                </h1>
+                <div class="right_btn_area">
+                        <a href="#" class="search_area">
+                            <img src="./images/common/search.svg" alt="search">
+                        </a>
+                        <a href="#" class="mypage_area">
+                            <img src="./images/common/mypage.svg" alt="mypage">
+                        </a>
+                </div>
+            </div><!--header in-->
+            <nav class="gnb">
+                <h2 class="blind">네비게이션</h2>
+                <div class="gnb_top">
+                    <h2 class="nav_logo">
+                        <a href="#index">
+                            <img src="./images/common/logo_main.png" alt="Dole_logo" width="75">
+                        </a>
+                    </h2>
+                    <a href="#" class="btn_nav_close">
+                        <span class="blind">메뉴 닫기 버튼</span>
+                        <span><img src="./images/common/login.svg" alt="close"></span>
+                    </a>
+                </div>
+                <ul class="gnb_list">
+                    <li>
+                        <div class="nav_tit">
+                            <p>브랜드 소개</p>
+                            <span class="btn_lnb">
+                                <span class="blind">메뉴닫기버튼</span>
+                                <span class="close"></span>
+                                <span class="close"></span>
+                            </span>
+                        </div>
+                        <ul class="lnb">
+                            <li><a href="./brand_info.html">*브랜드 스토리</a></li>
+                            <li><a href="#">히스토리</a></li>
+                            <li><a href="./dole_korea.html">*돌 코리아</a></li>
+                            <li><a href="#">품질 관리</a></li>
+                            <li><a href="#">우리의 약속</a></li>
+                        </ul>
+                    </li>
+                    <li>
+                        <div class="nav_tit">
+                            <p>제품 소개</p>
+                            <span class="btn_lnb">
+                                <span class="blind">메뉴닫기버튼</span>
+                                <span class="close"></span>
+                                <span class="close"></span>
+                            </span>
+                        </div>
+                        <ul class="lnb">
+                            <li><a href="./fresh_list.html">*신선 제품</a></li>
+                            <li><a href="./packaged_list.html">*가공 제품</a></li>
+                        </ul>
+                    </li>
+                    <li>
+                        <div class="nav_tit">
+                            <p>농장 소개</p>
+                            <span class="btn_lnb">
+                                <span class="blind">메뉴닫기버튼</span>
+                                <span class="close"></span>
+                                <span class="close"></span>
+                            </span>
+                        </div>
+                        <ul class="lnb">
+                            <li><a href="./farm_philippines.html">*필리핀 농장</a></li>
+                            <li><a href="#">태국 농장</a></li>
+                        </ul>
+                    </li>
+                    <li>
+                        <div class="nav_tit">
+                            <p>레시피</p>
+                            <span class="btn_lnb">
+                                <span class="blind">메뉴닫기버튼</span>
+                                <span class="close"></span>
+                                <span class="close"></span>
+                            </span>
+                        </div>
+                        <ul class="lnb">
+                            <li><a href="./sub_recipe.html">*전체 보기</a></li>
+                            <li><a href="./sub_maindish.html">*메인 디쉬</a></li>
+                            <li><a href="#">샐러드</a></li>
+                            <li><a href="./sub_dessert.html">*디저트</a></li>
+                        </ul>
+                    </li>
+                    <li>
+                        <div class="nav_tit">
+                            <p>서비스</p>
+                            <span class="btn_lnb">
+                                <span class="blind">메뉴닫기버튼</span>
+                                <span class="close"></span>
+                                <span class="close"></span>
+                            </span>
+                        </div>
+                        <ul class="lnb">
+                            <li><a href="#">뉴스</a></li>
+                            <li><a href="#">이벤트</a></li>
+                            <li><a href="./cooking.html">*쿠킹 클래스</a></li>
+                            <li><a href="./faq.html">*FAQ</a></li>
+                        </ul>
+                    </li>
+                </ul>
+            </nav>
+            <div class="overlay"></div>
+        </header>
+        <div class="btn_fixed">
+            <div class="btn_top"></div>
+            <a href="https://www.dolemarket.co.kr/" class="btn_macket" target="_blank"></a>
+        </div>
+
+
+        <main id="contents">
+            <div class="sub_tit">
+                <h2>디저트</h2>
+                <div class="line"></div>
+            </div>
+            <div class="slider_btn_area">
+                <div class="slider_btn swiper mySwiper3">
+                    <ul class="swiper-wrapper">
+                        <li class="swiper-slide"><a href="#">All</a></li>
+                        <li class="swiper-slide"><a href="#">파인애플</a></li>
+                        <li class="swiper-slide"><a href="#">바나나</a></li>
+                        <li class="swiper-slide"><a href="#">오렌지</a></li>
+                        <li class="swiper-slide"><a href="#">키위</a></li>
+                        <li class="swiper-slide"><a href="#">망고</a></li>
+                        <li class="swiper-slide"><a href="#">아보카도</a></li>
+                        <li class="swiper-slide"><a href="#">자몽</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="rsearch_area">
+                <form action="#">
+                    <fieldset>
+                        <legend class="blind">레시피명검색</legend>
+                        <div class="search_wrap">
+                            <div class="search_area1">
+                                <input type="text" placeholder="레시피명으로 검색해보세요.">
+                            </div>
+                            <div class="btn_search1">
+                                <a href="#">
+                                    <img src="./images/sub_recipe/search.svg" alt="검색버튼">
+                                </a>
+                            </div>
+                            <button type="button" class="btn_ser_close">
+                                <img src="./images/sub_recipe/close.svg" alt="닫기버튼">
+                            </button>
+                        </div>
+                    </fieldset>
+                </form>
+                <div class="search_tag">
+                    <span>#케이크</span>
+                    <span>#타르트</span>
+                    <span>#아이스크림</span>
+                </div>
+            </div><!--search end-->
+            
+            <div class="bar_area">
+                <div class="bar"></div>
+            </div>
+
+            <section class="sec">
+                <div class="list_tit">
+                    <h3>검색결과</h3>
+                </div>
+
+                <div class="recipe_list">
+                    <div class="area_1">
+                        <ul class="all_wrap">
+                            <li class="recipe_area">
+                                <a href="./sub_page3.html" class="btn_recipe">
+                                    <img src="./images/sub_dessert/01dole_mango_bubbletea.jpg" alt="돌 망고버블티">
+                                    <p>*돌 망고버블티</p>
+                                </a>
+                            </li>
+                            <li class="recipe_area">
+                                <a href="#" class="btn_recipe">
+                                    <img src="./images/sub_dessert/02cake.jpg" alt="돌 복숭아 보틀케이크">
+                                    <p>돌 복숭아 보틀케이크</p>
+                                </a>
+                            </li>
+                            <li class="recipe_area">
+                                <a href="#" class="btn_recipe">
+                                    <img src="./images/sub_dessert/03bananaroll.jpg" alt="몽키바나나 롤샌드위치">
+                                    <p>몽키바나나 롤샌드위치</p>
+                                </a>
+                            </li>
+                            <li class="recipe_area">
+                                <a href="#" class="btn_recipe">
+                                    <img src="./images/sub_dessert/04banana_ice.jpg" alt="바나나 까나페 아이스크림">
+                                    <p>바나나 까나페 아이스크림</p>
+                                </a>
+                            </li>
+                            <li class="recipe_area">
+                                <a href="#" class="btn_recipe">
+                                    <img src="./images/sub_dessert/05banana_st_waffle.jpg" alt="바나나 딸기 아이스크림 와플">
+                                    <p>바나나 딸기 아이스크림 와플</p>
+                                </a>
+                            </li>
+                            <li class="recipe_area">
+                                <a href="#" class="btn_recipe">
+                                    <img src="./images/sub_dessert/06banana_mango.jpg" alt="바나나 망고 아이스크림">
+                                    <p>바나나 망고 아이스크림</p>
+                                </a>
+                            </li>
+                            <li class="recipe_area">
+                                <a href="#" class="btn_recipe">
+                                    <img src="./images/sub_dessert/07banana_blueberry.jpg" alt="바나나 블루베리 아이스크림">
+                                    <p>바나나 블루베리 아이스크림</p>
+                                </a>
+                            </li>
+                            <li class="recipe_area">
+                                <a href="#" class="btn_recipe">
+                                    <img src="./images/sub_dessert/08waffle.jpg" alt="와플 딸기 바나나 아이스크림">
+                                    <p>와플 딸기 바나나 아이스크림</p>
+                                </a>
+                            </li>
+                        </ul>
+                    </div><!--1 end-->
+                
+                    <div class="area_2">
+                        <ul class="all_wrap">
+                            <li class="recipe_area">
+                                <a href="#" class="btn_recipe">
+                                    <img src="./images/sub_dessert/09cake.jpg" alt="콩포트 파운드 케이크">
+                                    <p>콩포트 파운드 케이크</p>
+                                </a>
+                            </li>
+                            <li class="recipe_area">
+                                <a href="#" class="btn_recipe">
+                                    <img src="./images/sub_dessert/11fineapple_ice.jpg" alt="파인애플 셔벗">
+                                    <p>파인애플 셔벗</p>
+                                </a>
+                            </li>
+                            <li class="recipe_area">
+                                <a href="#" class="btn_recipe">
+                                    <img src="./images/sub_dessert/10fineapple.jpg" alt="파인애플 과일빙수">
+                                    <p>파인애플 과일빙수</p>
+                                </a>
+                            </li>
+                            <li class="recipe_area">
+                                <a href="#" class="btn_recipe">
+                                    <img src="./images/sub_dessert/12_fineapple.jpg" alt="파인애플 시트러스 셔벗">
+                                    <p>파인애플 시트러스 셔벗</p>
+                                </a>
+                            </li>
+                            <li class="recipe_area">
+                                <a href="#" class="btn_recipe">
+                                    <img src="./images/sub_dessert/13peachcobbler.png" alt="피치 코블러 머그 케잌">
+                                    <p>피치 코블러 머그 케잌</p>
+                                </a>
+                            </li>
+                            <li class="recipe_area">
+                                <a href="#" class="btn_recipe">
+                                    <img src="./images/sub_dessert/14pineappleupside.png" alt="파인애플 파르페">
+                                    <p>파인애플 파르페</p>
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            
+            </section>
+                <div class="recipe_more more_2">
+                    <h2 class="blind">더보기버튼</h2>
+                    <a href="#" class="btn_more">더 보기</a>
+        </main>
+
+
+        <footer id="footer">
+            <div class="ft_menu">
+                <ul>
+                    <li>
+                        <a href="#">브랜드소개</a>
+                    </li>
+                    <li>
+                        <a href="#">개인정보처리방침</a>
+                    </li>
+                    <li>
+                        <a href="#">이용약관</a>
+                    </li>
+                    <li>
+                        <a href="#">FAQ</a>
+                    </li>
+                </ul>
+            </div>
+            <div class="ft_area">
+                <h3 class="blind">소셜버튼</h3>
+                <div class="social">
+                    <div class="social_list">
+                        <a href="https://blog.dole.co.kr/" target="_blank">
+                            <img src="./images/common/social_blog.svg" alt="블로그">
+                        </a>
+                        <a href="https://www.instagram.com/dole.korea/" target="_blank">
+                            <img src="./images/common/social_instagram.svg" alt="인스타그램">
+                        </a>
+                        <a href="https://www.facebook.com/DoleKorea" target="_blank">
+                            <img src="./images/common/social_facebook.svg" alt="페이스북">
+                        </a>
+                        <a href="https://www.youtube.com/user/DoleKorea" target="_blank">
+                            <img src="./images/common/social_youtube.svg" alt="유튜브">
+                        </a>
+                    </div>
+                </div>
+                <div class="address">
+                    <address>서울특별시 강남구 영동대로 511, 1204호(삼성동) (유)돌코리아</address>
+                    <p><a href="tel:02-2040-3888"></a> Tel : 02-2040-3888</p>
+                    <p>Fax : 02-3412-0131</p>
+                </div>
+                <div class="fm_site">
+                    <div class="fm_site_area">
+                        <div class="fm_site_btn">
+                            <span>패밀리 사이트 방문하기</span>
+                            <i class="fa-solid fa-angle-up"></i>
+                            <i class="fa-solid fa-angle-down"></i>
+                        </div>
+                        <ul class="fm_site_list">
+                            <li><a href="#">ASIA REGION</a></li>
+                            <li><a href="https://www.dole.co.jp/" target="_blank">JAPAN</a></li>
+                            <li><a href="https://www.dole.co.jp/" target="_blank">CHINA</a></li>
+                            <li><a href="#">PHILIPPINES</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="copyright">
+                    <h3 class="footer_logo">
+                        <a href="#">
+                            <img src="./images/common/logo_footer.png" alt="푸터로고">
+                        </a>
+                    </h3>
+                    <p>Copyright &copy; All rights reserved.</p>
+                </div>
+            </div>
+        </footer>
+    </div>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+    <script src="./js/script.js"></script>
+</body>
+</html>

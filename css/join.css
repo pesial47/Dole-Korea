@@ -1,0 +1,95 @@
+@charset "utf-8";
+
+#content{
+    margin: 0 20px;
+}
+.join_tit{
+    padding: 105px 0 25px;
+    font-size: 18px;
+}
+.join_tit h2{
+    font-size: 22px;
+    padding-bottom: 10px;
+    font-weight: 600;
+}
+.join_tit strong{
+    width: 50%;
+    font-weight: 500;
+}
+
+
+
+
+.all_agree .agree{
+    padding-top: 15px;
+}
+
+input#all_check + label::before{
+    content: "";
+    display: inline-block;
+    width: 24px;
+    height: 24px;
+    background: #f2f2f2 url(../images/login/check.svg) no-repeat center;
+    border-radius: 5px;
+    vertical-align: middle;
+    margin-right: 10px ;
+}
+/* check */
+input#all_check:checked + label::before{
+    content: "";
+    display: inline-block;
+    width: 24px;
+    height: 24px;
+    background: #0a6f00 url(../images/login/check_on.svg) no-repeat center;
+    border-radius: 5px;
+    vertical-align: middle;
+    margin-right: 10px ;
+}
+
+input#each_check + label::before{
+    content: "";
+    display: inline-block;
+    width: 24px;
+    height: 24px;
+    background: url(../images/login/check.svg) no-repeat center;
+    border-radius: 5px;
+    vertical-align: middle;
+    margin-right: 10px ;
+}
+/* check */
+input#each_check:checked + label::before{
+    content: "";
+    display: inline-block;
+    width: 24px;
+    height: 24px;
+    background: url(../images/login/check_green.svg) no-repeat center;
+    border-radius: 5px;
+    vertical-align: middle;
+    margin-right: 10px ;
+}
+
+
+
+
+
+.button_ag{
+    margin: 100px 0 50px;
+    text-align: center;
+}
+.button_ag .btn_agree{
+    width: 100%;
+    padding: 15px 100px;
+    font-size: 18px;
+    color: #fff;
+    background: #eaeaea;
+    border-radius: 10px;
+}
+/* on */
+.button_ag .btn_agree.on{
+    width: 100%;
+    padding: 15px 100px;
+    font-size: 18px;
+    color: #fff;
+    background: #0a6f00;
+    border-radius: 10px;
+}

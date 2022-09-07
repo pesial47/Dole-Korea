@@ -1,0 +1,93 @@
+@charset "uft-8";
+#visual {
+    width: 100%;
+    font-size: 16px;
+}
+#visual .wrap {
+    padding: 90px 20px 10px;
+    background-color: #fff;
+}
+#visual .tit {
+    position: relative;
+    font-size: 24px;
+    color: #001d82;
+    font-weight: 900;
+    text-align: center;
+    padding-bottom: 20px;
+}
+#visual .tit::after {
+    content: "";
+    display: block;
+    width: 13.3%;
+    height: 2px;
+    background-color: #001d82;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    bottom: 1px;
+}
+#visual .review_wrap {
+    padding-top: 20px;
+}
+#visual .review_wrap .review {
+    margin-bottom: 30px;
+}
+#visual .review .text {
+    display: flex;
+}
+#visual .review .text h4 {
+    height: 30px;
+    background-color: #ffea7c;
+    text-align: center;
+    line-height: 30px;
+    border-radius: 10px;
+    padding: 0 15px;
+}
+#visual .review .text p {
+    padding: 9px;
+    font-weight: 600;
+}
+#visual .review img {
+    margin-top: 5px;
+}
+#visual .review .txt {
+    font-size: 12px;
+    text-align: center;
+    margin-top: 5px;
+}
+#visual .review .txt p {
+    padding: 2px;
+}
+
+/* animation */
+@keyframes slideUp {
+    0% {
+        opacity: 0;
+        transform: translateY(20px);
+    }
+    100% {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+/**/
+
+.ani_slideUp {
+    animation: slideUp 0.6s ease-out both;
+}
+.delay02s {
+    animation-delay: 0.2s;
+}
+.delay05s {
+    animation-delay: 0.5s;
+}
+.delay08s {
+    animation-delay: 0.8s;
+}
+.delay15s {
+    animation-delay: 1.5s;
+}
+.delay2s {
+    animation-delay: 2s;
+}

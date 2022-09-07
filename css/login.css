@@ -1,0 +1,252 @@
+@charset "utf-8";
+
+html{
+    font-size: 14px;
+}
+
+#content{
+    position: relative;
+    padding:0 20px;
+}
+#content .login_tit{
+    width: 100%;
+    padding: 105px 0 25px;
+}
+
+
+.login_tit h2{
+    font-size: 18px;
+    color: #333;
+    line-height: 1.5;
+    
+}
+
+.login_area{
+    width: 100%;
+    position: relative;
+    margin: auto;
+
+}
+.login_area .input_txt{
+    display: block;
+    width: 100%;
+    min-height: 50px;
+    border: 1px solid #eaeaea;
+    border-radius: 10px;
+    box-sizing: border-box;
+    padding: 15px 20px;
+
+    
+}
+.login_area .input_pw{
+    margin-top: 10px;
+}
+
+.input::placeholder{
+    color: #777;
+}
+
+.login_area .autosave{
+   margin-top: 20px;
+   position: relative;
+}
+
+.autosave .btn1, .btn2{
+    width: 100px;
+}
+
+.btn1 input[type="checkbox"]+label,
+.btn2 input[type="checkbox"]+label{
+    position: relative;
+    color: #777;
+}
+.btn1 input+label::before{
+    content: "";
+    display: inline-block;
+    width: 24px;
+    height: 24px;
+    border-radius: 5px;
+    background: #eaeaea url(../images/login/check.svg) no-repeat center;
+    text-align: center;
+    vertical-align: middle;
+    margin-right: 10px;
+    
+}
+.btn1 input:checked+label::before{
+    content: "";
+    display: inline-block;
+    width: 24px;
+    height: 24px;
+    border-radius: 5px;
+    background: #0A6F00 url(../images/login/check_on.svg) no-repeat center;
+    text-align: center;
+    vertical-align: middle;
+    margin-right: 10px;
+
+}
+.btn2{
+    position: absolute;
+    top: 0;
+    left: 129px;
+}
+
+.btn2 input+label::before{
+    content: "";
+    display: inline-block;
+    width: 24px;
+    height: 24px;
+    border-radius: 5px;
+    background: #f2f2f2 url(../images/login/check.svg) no-repeat center;
+    text-align: center;
+    vertical-align: middle;
+    margin-right: 10px;
+    
+}
+.btn2 input:checked+label::before{
+    content: "";
+    display: inline-block;
+    width: 24px;
+    height: 24px;
+    border-radius: 5px;
+    background: #0A6F00 url(../images/login/check_on.svg) no-repeat center;
+    text-align: center;
+    vertical-align: middle;
+    margin-right: 10px;
+
+}
+
+/* .btn2 input[type="checkbox"]+label::after{
+    content: "";
+    width: 20px;
+    height: 20px;
+    background: url(../images/login/check.svg) no-repeat center;
+    display: inline-block;
+    position: absolute;
+    top: 0;
+    left: 2px;
+} */
+
+/* 위처럼 체크박스 배경, 버튼을 before, after로 나눠도 되지만
+스크립트를 짜야하기때문에 before에 넣겠다. */
+
+
+
+
+
+
+.login_area .button_area{
+    display: flex;
+    margin-top: 30px;
+    /* justify-content: space-between; */
+    display: block;
+}
+.login_area button{
+    width: 100%;
+    height: 50px;
+    border-radius: 10px;
+    font-size: 16px;
+    font-weight: 600;
+    
+}
+
+.login_area .btn_login{
+    background: #0A6F00;
+    color: #fff;
+    margin-bottom: 10px;
+}
+.login_area .btn_join{
+    background: #f2f2f2;
+    color: #0A6F00;
+    
+}
+
+
+
+.find_area{
+    margin: 20px 0;
+    width: 100%;
+    justify-content: space-between;
+    display: inline-block;
+    text-align: center;
+    color: #777;
+}
+
+.find_area a{
+    margin: 10px 0;
+    padding-left:5px;
+}
+.find_area>span{
+    display: inline-block;
+    width: 1px;
+    height: 13px;
+    background: #777;
+    color: #777;
+    vertical-align: middle;
+    margin: 0 0 1px 4px;
+}
+
+/* 간편로그인 */
+.other_login{
+   border-top: 1px solid #eaeaea;
+   margin-bottom: 60px;
+}
+.other_login .other_tit{
+    color: #777;
+    text-align: center;
+    padding-top: 40px;
+    font-weight: 600;
+    
+}
+
+.other_login .social_login{
+    width: 100%;
+    height: 40px;
+    text-align: center;
+    position: relative;
+    padding-top: 10px;
+
+    
+}
+
+
+.social_login > a {
+    display: inline-block;
+    margin-top: 10px;
+    height: 40px;
+    line-height: 40px;
+    border-radius: 10px;
+    text-align: center;
+    /* font-size: 0; */
+    padding:0 10px;
+    color: #777;
+}
+
+.social_login > a:first-child {
+    margin-top: 0;
+}
+
+
+.social_login img{
+    display: inline-block;
+    width: 30px;
+    height: 30px;
+    vertical-align: middle;
+}
+
+.social_login span {
+    margin-left: 10px;
+    font-size: 14px;
+    vertical-align: middle;
+}
+
+
+/* .tb {
+    display: table;
+    width:100%;
+}
+.tbc{
+    display: table-cell;
+    vertical-align: middle;
+    width:100%;
+    height: 100%;
+} */

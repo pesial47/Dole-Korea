@@ -1,0 +1,247 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1,minimum-scale=1, user-scalable=no">
+    <title>Dole login</title>
+    <link
+    rel="stylesheet"
+    href="https://unpkg.com/swiper/swiper-bundle.min.css"/>
+    <link rel="stylesheet" href="./css/all.css" type="text/css">
+    <link rel="stylesheet" href="css/reset.css" type="text/css">
+    <link rel="stylesheet" href="./css/common.css" type="text/css">
+    <link rel="stylesheet" href="./css/join-2.css" type="text/css">
+</head>
+<body>
+    <div id="wrap">
+        <header id="header">
+            <div class="header_in">
+                <div class="menu_area">
+                    <a href="#">
+                        <img src="./images/common/menu.svg" alt="menu">
+                    </a>
+                </div>
+                <h1 class="logo">
+                    <a href="index.html">
+                        <img src="./images/common/logo2.svg" alt="dole-logo">
+                    </a>
+                </h1>
+                <div class="right_btn_area">
+                        <a href="#" class="search_area">
+                            <img src="./images/common/search.svg" alt="search">
+                        </a>
+                        <a href="./login.html" class="mypage_area">
+                            <img src="./images/common/mypage.svg" alt="mypage">
+                        </a>
+                </div>
+            </div><!--header in-->
+            <nav class="gnb">
+                <h2 class="blind">네비게이션</h2>
+                <div class="gnb_top">
+                    <h2 class="nav_logo">
+                        <a href="#index">
+                            <img src="./images/common/logo_main.png" alt="Dole_logo" width="75">
+                        </a>
+                    </h2>
+                    <a href="#" class="btn_nav_close">
+                        <span class="blind">메뉴 닫기 버튼</span>
+                        <span><img src="./images/common/login.svg" alt="close"></span>
+                    </a>
+                </div>
+                <ul class="gnb_list">
+                    <li>
+                        <div class="nav_tit">
+                            <p>브랜드 소개</p>
+                            <span class="btn_lnb">
+                                <span class="blind">메뉴닫기버튼</span>
+                                <span class="close"></span>
+                                <span class="close"></span>
+                            </span>
+                        </div>
+                        <ul class="lnb">
+                            <li><a href="./brand_info.html">*브랜드 스토리</a></li>
+                            <li><a href="#">히스토리</a></li>
+                            <li><a href="./dole_korea.html">*돌 코리아</a></li>
+                            <li><a href="#">품질 관리</a></li>
+                            <li><a href="#">우리의 약속</a></li>
+                        </ul>
+                    </li>
+                    <li>
+                        <div class="nav_tit">
+                            <p>제품 소개</p>
+                            <span class="btn_lnb">
+                                <span class="blind">메뉴닫기버튼</span>
+                                <span class="close"></span>
+                                <span class="close"></span>
+                            </span>
+                        </div>
+                        <ul class="lnb">
+                            <li><a href="./fresh_list.html">*신선 제품</a></li>
+                            <li><a href="./packaged_list.html">*가공 제품</a></li>
+                        </ul>
+                    </li>
+                    <li>
+                        <div class="nav_tit">
+                            <p>농장 소개</p>
+                            <span class="btn_lnb">
+                                <span class="blind">메뉴닫기버튼</span>
+                                <span class="close"></span>
+                                <span class="close"></span>
+                            </span>
+                        </div>
+                        <ul class="lnb">
+                            <li><a href="./farm_philippines.html">*필리핀 농장</a></li>
+                            <li><a href="#">태국 농장</a></li>
+                        </ul>
+                    </li>
+                    <li>
+                        <div class="nav_tit">
+                            <p>레시피</p>
+                            <span class="btn_lnb">
+                                <span class="blind">메뉴닫기버튼</span>
+                                <span class="close"></span>
+                                <span class="close"></span>
+                            </span>
+                        </div>
+                        <ul class="lnb">
+                            <li><a href="./sub_recipe.html">*전체 보기</a></li>
+                            <li><a href="./sub_maindish.html">*메인 디쉬</a></li>
+                            <li><a href="#">샐러드</a></li>
+                            <li><a href="./sub_dessert.html">*디저트</a></li>
+                        </ul>
+                    </li>
+                    <li>
+                        <div class="nav_tit">
+                            <p>서비스</p>
+                            <span class="btn_lnb">
+                                <span class="blind">메뉴닫기버튼</span>
+                                <span class="close"></span>
+                                <span class="close"></span>
+                            </span>
+                        </div>
+                        <ul class="lnb">
+                            <li><a href="#">뉴스</a></li>
+                            <li><a href="#">이벤트</a></li>
+                            <li><a href="./cooking.html">*쿠킹 클래스</a></li>
+                            <li><a href="./faq.html">*FAQ</a></li>
+                        </ul>
+                    </li>
+                </ul>
+            </nav>
+            <div class="overlay"></div>
+        </header>
+
+    <div class="bag_btn"></div>
+    <div class="bag_btn2"></div>
+    
+    <main id="content">
+        <div class="join_tit">
+            <h2>회원가입</h2>
+        </div>
+        <section class="signin_sec">
+            <form action="#">
+                <fieldset class="signin_area">
+                    <legend class="blind">회원가입</legend>
+
+                    <div class="signin_list">
+                        <div class="sign">
+                            <label for="id" class="id">아이디</label>
+                            <input type="text" id="id" class="input_id" placeholder="돌마켓 통합회원 및 이메일 아이디" maxlength="20">
+                        </div>
+                        <div class="sign">
+                            <label for="pw" class="pw">비밀번호</label>
+                            <input type="text" id="pw" class="input_pw" placeholder="비밀번호 (8-12 영문자+숫자+특수문자)">
+                            <input type="text" id="pw" class="input_pw" placeholder="비밀번호 확인">
+                        </div>
+                        <div class="sign">
+                            <label for="name" class="name">이름</label>
+                            <input type="text" id="name" class="input_name" placeholder="성함">
+                        </div>
+                        <div class="sign">
+                            <label for="tel" class="tel">연락처</label>
+                            <input type="text" id="tel" class="input_tel" placeholder="'-' 없이 입력" maxlength="13">
+                        </div>
+                        
+                    </div>
+                    <div class="button_signin">
+                        <button type="button" class="btn_signin" onclick="location.href = './index.html'">
+                            가입하기
+                        </button>
+                    </div>
+                </fieldset>
+            </form>
+        </section>
+    </main>
+    <!-- <footer id="footer">
+        <div class="ft_menu">
+            <ul>
+                <li>
+                    <a href="#">브랜드소개</a>
+                </li>
+                <li>
+                    <a href="#">개인정보처리방침</a>
+                </li>
+                <li>
+                    <a href="#">이용약관</a>
+                </li>
+                <li>
+                    <a href="#">FAQ</a>
+                </li>
+            </ul>
+        </div>
+        <div class="ft_area">
+            <h3 class="blind">소셜버튼</h3>
+            <div class="social">
+                <div class="social_list">
+                    <a href="https://blog.dole.co.kr/" target="_blank">
+                        <img src="./images/common/social_blog.svg" alt="블로그">
+                    </a>
+                    <a href="https://www.instagram.com/dole.korea/" target="_blank">
+                        <img src="./images/common/social_instagram.svg" alt="인스타그램">
+                    </a>
+                    <a href="https://www.facebook.com/DoleKorea" target="_blank">
+                        <img src="./images/common/social_facebook.svg" alt="페이스북">
+                    </a>
+                    <a href="https://www.youtube.com/user/DoleKorea" target="_blank">
+                        <img src="./images/common/social_youtube.svg" alt="유튜브">
+                    </a>
+                </div>
+            </div>
+            <div class="address">
+                <address>서울특별시 강남구 영동대로 511, 1204호(삼성동) (유)돌코리아</address>
+                <p><a href="tel:02-2040-3888"></a> Tel : 02-2040-3888</p>
+                <p>Fax : 02-3412-0131</p>
+            </div>
+            <div class="fm_site">
+                <div class="fm_site_area">
+                    <div class="fm_site_btn">
+                        <span>패밀리 사이트 방문하기</span>
+                        <i class="fa-solid fa-angle-up"></i>
+                        <i class="fa-solid fa-angle-down"></i>
+                    </div>
+                    <ul class="fm_site_list">
+                        <li><a href="#">ASIA REGION</a></li>
+                        <li><a href="https://www.dole.co.jp/" target="_blank">JAPAN</a></li>
+                        <li><a href="https://www.dole.co.jp/" target="_blank">CHINA</a></li>
+                        <li><a href="#">PHILIPPINES</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="copyright">
+                <h3 class="footer_logo">
+                    <a href="#">
+                        <img src="./images/common/logo_footer.png" alt="푸터로고">
+                    </a>
+                </h3>
+                <p>Copyright &copy; All rights reserved.</p>
+            </div>
+        </div>
+    </footer> -->
+</div>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+<script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+<script src="./js/script.js"></script>
+
+</body>
+</html>

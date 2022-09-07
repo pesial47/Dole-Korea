@@ -1,0 +1,138 @@
+@charset "utf-8";
+
+
+.sub_tit{
+    padding: 45px 0 25px;
+    position: relative;
+    top:40px;
+    width:100%;
+    text-align: center;
+}
+.sub_tit::after{
+    content: ""; display: block;
+    width: 13.3%; height:2px;
+    background-color: #001D82;
+    position: absolute;
+    left: 50%; transform: translateX(-50%);
+    bottom:-2px;
+}
+.sub_tit h2{
+    color:#001D82;
+    font-size: 1.71rem;
+}
+.cate_sel{
+    margin-top: 40px;
+    padding: 40px 0 30px;
+    text-align: center;
+}
+.cate_sel .btn_sel{
+    width: 32%;
+    min-height: 40px;
+    border: 1px solid #0A6F00;
+    color:#0A6F00;
+    font-size: 1.142rem;
+    font-weight: 700;
+    border-radius: 20px;
+    text-align: center;
+    padding:12px 0;
+    box-sizing: border-box;
+    display: inline-block;
+    margin: 0 7px;
+}
+
+.cate_sel .sel_packaged.on{
+    background-color: #0A6F00;
+    border: none;
+    color:#fff;
+}
+.filter .filter_area{
+    width:65.3%;
+    min-height: 40px;
+    border: 1px solid #707070;
+    padding:12px 15px;
+    box-sizing: border-box;
+    position: relative;
+    margin: 0 auto;
+    color:#707070;
+    font-size: 1.142rem;
+    z-index: 50;
+}
+.filter .filter_area .arrow_down{
+    position: absolute;
+    right:15px;
+    bottom:50%;
+}
+.filter .filter_list{
+    position: absolute;
+    left:-1px; top: 40px;
+    background: #fff;
+    width:100%;
+    border: 1px solid #707070;
+    display: none;
+}
+.filter .filter_list a{
+    padding: 15px 15px;
+    display: block;
+}
+
+.packaged_list{
+    padding:50px 20px;
+}
+.packaged_list .packaged_area{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+.packaged_list .product_area{
+    text-align: center;
+    width: 43.8%;
+    margin-bottom: 70px;
+    max-height: 167px;
+    /* 상품명 2줄짜리가 더 길어지는 것을 방지 */
+}
+
+.packaged_list .btn_product{
+    width: 100%;
+    /* height: 88%; */
+    /* 375에서 가로 대비 비율 */
+    height: 95%;
+    min-height: 124px;
+    border-radius: 10px;
+    border: 1px solid #ccc;
+    position: relative;
+    margin-bottom: 15px;
+}
+.packaged_list .product_area h3{
+    text-align: center;
+    width:130px;
+    margin: 0 auto;
+    line-height: 1.2;
+    font-size: 1.142rem;
+}
+.packaged_list .btn_product img{
+    width:88%;
+    max-width: 148px;
+    max-height: 148px;
+    position: absolute;
+    left:50%; top: 50%;
+    transform: translate(-50%, -50%);
+    
+}
+
+.area_2{
+    display: none;
+}
+
+.view_more{
+    text-align: center;
+    margin-bottom: 40px;
+}
+.view_more .btn_more{
+    width:53.3%;
+    min-height: 40px;
+    background: #eaeaea;
+    border-radius: 20px;
+    padding:12px 0;
+    box-sizing: border-box;
+    font-weight: 700;
+}

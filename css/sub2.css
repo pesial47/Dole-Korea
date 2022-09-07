@@ -1,0 +1,55 @@
+@charset "utf-8";
+
+#contents .sec{margin-bottom:50px;}
+#contents .tit{font-size:24px; color:#001D82; text-align:center; margin-top:80px; margin-bottom:30px;}
+#contents .tit span{width:50px; height:2px; background-color:#001D82; text-align:center;}
+#contents .sec .tit2{font-size:22px; color:#1d1d1d; margin-left:20px; margin-bottom:20px;}
+
+#contents .sec .txt{padding:0 20px;}
+#contents .sec p{margin-bottom:10px; line-height: 1.5;}
+#contents .sec span{font-size:16px; margin-bottom:20px; font-weight:700;}
+#contents .sec .icon .ic{display:flex; margin-left:20px;}
+
+#contents .sec .txt2{padding:0 20px; margin-bottom:30px;}
+
+#contents .sec .vision{position:relative;}
+
+
+#contents .sec .vision .icon li{display:flex;}
+#contents .sec .vision .icon li .txt{width:250px; box-sizing:border-box; padding-top:15px;}
+#contents .sec .vision .icon li .ic{margin-left:20px; margin-bottom:40px; width:80px; height:80px; border-radius:50%;
+                                    background:#FFEA7C url(../images/sub2/icon4.svg)no-repeat center center;}
+#contents .sec .vision .icon li .ic2{margin-left:20px; margin-bottom:40px; width:80px; height:80px; border-radius:50%;
+                                    background:#FFEA7C url(../images/sub2/icon5.svg)no-repeat center center;}
+#contents .sec .vision .icon li .ic3{margin-left:20px; margin-bottom:40px; width:80px; height:80px; border-radius:50%;
+                                    background:#FFEA7C url(../images/sub2/icon6.svg)no-repeat center center;}
+
+
+#contents .sec3{padding:0 20px;}
+#contents .sec .tit3{font-size:22px; color:#1d1d1d; margin-bottom:30px;}
+#contents .sec .scg .kf{margin-bottom:20px;}
+
+#contents .sec .scg .st h3{font-size:18px; color:#333333; font-weight:400; margin-bottom:10px;}
+#contents .sec .scg .kfs{margin-bottom:30px;}
+#contents .sec .scg .seoul img{margin-bottom:20px;}
+#contents .sec .scg .seoul h3{font-size:16px;}
+
+
+.seoul a{
+    text-decoration: underline;
+}
+
+
+#contents .sec4{padding:0 20px;}
+#contents .sec .tit4{font-size:22px; color:#1d1d1d; margin-bottom:30px;}
+#contents .sec .ad h3{font-size:18px; color:#333; margin-bottom:20px; font-weight:400;}
+#contents .sec .ad .sead address{margin-bottom:15px;}
+#contents .sec .ad .map{width:50px; height:20px; border-radius:30%; background:#ffea7c url(../images/sub2/map.svg)no-repeat center right;
+    text-align:center; position:relative;}
+#contents .sec .ad .map span{position:absolute; font-size:12px; top:2px; right:15px;}
+#contents .sec .ad .ads{margin-bottom:25px;}
+#contents .sec .ad .ads2{margin-bottom:25px;}
+
+
+
+                                 

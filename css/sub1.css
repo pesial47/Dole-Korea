@@ -1,0 +1,25 @@
+@charset "utf-8";
+
+#contents p{
+    line-height: 1.5;
+}
+#contents .sec{margin-bottom:50px;}
+#contents .tit{font-size:24px; color:#001D82; text-align:center; margin-top:80px; margin-bottom:30px;}
+#contents .tit span{width:50px; height:2px; background-color:#001D82; text-align:center;}
+#contents .sec .tit2{color:#1d1d1d; font-size:22px; margin-left:20px; margin-bottom:20px;}
+#contents .sec .asia1{margin-bottom:20px; padding:0 20px;}
+
+#contents .sec .txt{padding:0 20px;}
+#contents .sec .txt p{margin-bottom:10px;}
+#contents .sec .asia2{padding:0 20px; margin:20px 0;}
+#contents .sec .txt2{padding:0 20px;}
+#contents .sec .txt2 p{margin-bottom:10px;}
+
+#contents .sec .tit3{color:#1d1d1d; font-size:22px; margin-left:20px; margin-bottom:20px;}
+#contents .sec .ci{padding:0 20px; margin-bottom:20px;}
+#contents .sec .txt3{padding:0 20px;}
+#contents .sec .txt3 p{margin-bottom:10px;}
+#contents .sec1{padding-bottom:0;}
+
+
+

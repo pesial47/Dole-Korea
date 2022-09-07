@@ -1,0 +1,116 @@
+@charset "uft-8";
+
+#visual {
+    height: 100%;
+    /* background: pink; */
+    width: 100%;
+}
+#visual .wrap {
+    padding: 90px 20px;
+    background: #fff;
+}
+#visual .wrap .tit {
+    position: relative;
+    font-size: 24px;
+    color: #001d82;
+    font-weight: 900;
+    text-align: center;
+    padding-bottom: 20px;
+}
+#visual .wrap .tit::after {
+    content: "";
+    display: block;
+    width: 13.3%;
+    height: 2px;
+    background-color: #001d82;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    bottom: 1px;
+}
+#visual .type {
+    font-size: 20px;
+    font-weight: 600;
+    height: 40px;
+    display: flex;
+    margin-bottom: 10px;
+    padding-top: 20px;
+    border-bottom: 2px solid #0a6f00;
+}
+#visual .type .ask {
+    /* background: orange; */
+    width: 50%;
+    text-align: center;
+    position: relative;
+}
+#visual .type .ask a {
+    color: #1d1d1d;
+    padding: 10px 15px;
+}
+#visual .type .ask-1 a {
+    color: #0a6f00;
+}
+#visual .type .ask::after {
+    content: "";
+    display: block;
+    position: absolute;
+    width: 2px;
+    height: 20px;
+    background: #0a6f00;
+    right: 0;
+    top: 50%;
+    transform: translateY(-50%);
+}
+#visual .type .ask:last-child:after {
+    display: none;
+}
+#visual .faq .ques {
+    margin-bottom: 10px;
+    border-bottom: 1px solid #c7c7c7;
+}
+#visual .faq_list li a {
+    font-size: 16px;
+    font-weight: 600;
+    color: #1d1d1d;
+    padding: 5px;
+    line-height: 1.5;
+}
+
+#visual .faq .ans {
+    font-size: 14px;
+    color: #333;
+    margin-top: 5px;
+    display: none;
+}
+#visual .faq_list .ans {
+    background: rgba(10, 111, 0, 0.05);
+    padding: 13px;
+    border-radius: 5px;
+    margin-bottom: 10px;
+    font-size: 14px;
+    line-height: 1.5;
+}
+#visual .faq_list .ans a {
+    font-weight: 400;
+    text-decoration: underline;
+}
+#visual .num {
+    position: relative;
+    font-size: 14px;
+    font-weight: 600;
+    /* background: orange; */
+}
+#visual .num .num_list {
+    display: flex;
+    margin: 0 auto;
+    width: 200px;
+    justify-content: space-between;
+}
+
+#visual .num li a {
+    padding: 15px;
+    color: #333;
+}
+#visual .num_list li:nth-child(2) a {
+    text-decoration: underline;
+}
